@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(96, 174, 247); 
+}
+a {
+    text-decoration: none;
+    color: orangered;
+}
+a:hover {
+    color: rgb(0, 4, 255);
+}
+a:visited {
+    color:rgb(253, 253, 253)
+}
+li {
+    color: orangered;
+    margin: 10px 0 10px 0;
+}
+p {
+    margin: 2%;
+}
+span {
+    color: orangered;
+}
+.header-container {
+    width: 100%;
+    display: flex;
+    background-image: url(/style/images/back-image.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(13, 128, 236);
+    border-left: none;
+    border-right: none;
+    height: 150px;
+    position: absolute;
+    top: 39px;
+}
+h1 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%; 
+    font-size: 25px;
+    color: whitesmoke;
+    border: 2px solid rgb(13, 128, 236);
+    border-left: none;
+    border-right: none;
+    background-color: orangered;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    position: absolute;
+    top: 148px;
+    left: 30%;
+    width:70%;
+    height: 30px;
+    padding-top: 6px;
+    background-color:rgb(96, 174, 247);
+    font-size: 16px;
+    border: 2px solid rgb(13, 128, 236);
+    border-top: none;
+}
+.logo {
+    position: absolute;
+    width: 30%;
+    top: 148px;
+    border-right: 4px solid rgb(13, 128, 236);
+    border-bottom: 4px solid rgb(13, 128, 236);
+}
+.events {
+    position: absolute;
+    width: 100%;
+}
+.subtitule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 219px;
+    left: 30%;
+    height: 30px;
+    width: 70%;
+    color: whitesmoke;
+    background-color: orangered;
+    border: 2px solid rgb(13, 128, 236);
+    border-top: none;
+}
+.dates {
+    width: 70%;
+    position: absolute;
+    top: 260px;
+    left: 30%;
+    text-align: center;
+    list-style: none;
+}
+.about {
+    width: 70%;
+    position: absolute;
+    top: 260px;
+    left: 30%;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+.contact {
+    width: 70%;
+    position: absolute;
+    top: 260px;
+    left: 30%;
+    text-align: center;
+}
+@media screen and (min-width: 550px) and (max-width: 960px) {
+    body {
+        background-color: rgb(96, 174, 247);
+    }
+    .header-container {
+        width: 100%;
+        display: flex;
+        border: 2px solid rgb(13, 128, 236);
+        border-left: none;
+        border-right: none;
+        height: 250px;
+        position: absolute;
+        top: 39px;
+    }
+    h1 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 100%; 
+        font-size: 40px;
+        color: whitesmoke;
+        border: 2px solid rgb(13, 128, 236);
+        border-left: none;
+        border-right: none;
+        background-color: orangered;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        position: absolute;
+        top: 248px;
+        left: 30%;
+        width:70%;
+        height: 50px;
+        padding-top: 6px;
+        background-color:rgb(96, 174, 247);
+        font-size: 30px;
+        border: 2px solid rgb(13, 128, 236);
+        border-top: none;
+    }
+    .logo {
+        position: absolute;
+        width: 30%;
+        top: 248px;
+        border-right: 4px solid rgb(13, 128, 236);
+        border-bottom: 4px solid rgb(13, 128, 236);
+    }
+    .events {
+        position: absolute;
+        width: 100%;
+    }
+    .subtitule {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top: 340px;
+        left: 30%;
+        height: 50px;
+        border: 2px solid rgb(13, 128, 236);
+        border-top: none;
+        font-size: 30px;
+    }
+    .dates {
+        width: 70%;
+        position: absolute;
+        top: 410px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .about {
+        width: 70%;
+        position: absolute;
+        top: 410px;
+        left: 30%;
+        text-align: center;
+        list-style: none;
+        font-size: 25px;
+    }
+    .contact {
+        width: 70%;
+        position: absolute;
+        top: 410px;
+        left: 30%;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 961px) {
+    body {
+        background-color: rgb(96, 174, 247);
+    }
+    .header-container {
+        width: 100%;
+        display: flex;
+        border: 2px solid rgb(13, 128, 236);
+        border-left: none;
+        border-right: none;
+        height: 400px;
+        position: absolute;
+        top: 39px;
+    }
+    h1 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 100%; 
+        font-size: 60px;
+        color: whitesmoke;
+        border: 2px solid rgb(13, 128, 236);
+        border-left: none;
+        border-right: none;
+        background-color: orangered;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        position: absolute;
+        top: 398px;
+        left: 30%;
+        width:70%;
+        height: 50px;
+        padding-top: 6px;
+        background-color:rgb(96, 174, 247);
+        font-size: 30px;
+        border: 2px solid rgb(13, 128, 236);
+        border-top: none;
+    }
+    .logo {
+        position: absolute;
+        width: 30%;
+        top: 398px;
+        border-right: 4px solid rgb(13, 128, 236);
+        border-bottom: 4px solid rgb(13, 128, 236);
+    }
+    .events {
+        position: absolute;
+        width: 100%;
+    }
+    .subtitule {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top: 489px;
+        left: 30%;
+        height: 50px;
+        border: 2px solid rgb(13, 128, 236);
+        border-top: none;
+        font-size: 30px;
+    }
+    .dates {
+        width: 70%;
+        position: absolute;
+        top: 560px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .about {
+        width: 70%;
+        position: absolute;
+        top: 560px;
+        left: 30%;
+        text-align: center;
+        list-style: none;
+        font-size: 30px;
+    }
+    .contact {
+        width: 70%;
+        position: absolute;
+        top: 560px;
+        left: 30%;
+        text-align: center;
+        font-size: 30px;
+    }
+}
