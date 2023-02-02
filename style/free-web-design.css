@@ -16,6 +16,9 @@ a:hover {
 a:visited {
     color:rgb(253, 253, 253)
 }
+ul {
+    list-style: none;
+}
 li {
     color: orangered;
     margin: 10px 0 10px 0;
